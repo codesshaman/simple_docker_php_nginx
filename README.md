@@ -11,6 +11,9 @@ cd simple_docker_php_nginx
 
 Every commands executed into the root folder with docker-compose.yml file.
 
+BUILD (first start):
+docker-compose up -d --build
+
 RUN:
 docker-compose up -d
 
